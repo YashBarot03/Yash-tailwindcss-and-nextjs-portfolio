@@ -1,0 +1,63 @@
+.cursor{
+    background-color: #ffffff;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+  }
+
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-25%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  #animated-text-1 {
+    animation: slide-in 2s  ease-in-out;
+  }
+  #animated-text-2 {
+    animation: slide-in 3s ease-in-out;
+  }
+  #animated-text-3 {
+    animation: slide-in 4s ease-in-out;
+  }
+  .fontsfamily{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+
+  @keyframes wavingAnimation {
+    0% {
+      transform: rotate(-20deg);
+    }
+    25% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(20deg);
+    }
+    75% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-20deg);
+    }
+  }
+  
+  .waving-hand {
+    display: inline-block;
+    animation: wavingAnimation 2s infinite;
+  }
+  
+  .hand {
+    display: inline-block;
+  }
+  
+  .hand-emoji {
+    color: aqua;
+  }
+  
